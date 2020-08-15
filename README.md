@@ -1,20 +1,3 @@
-# Design Patterns for Blockchain
-
-## Arts Provenance -- DigitalArt Token (DT)
-Feiya Wang --101036160<br>
-Muzammil -- 101281406<br>
-Neraj Obla KumarBabu --	101275194<br>
-Patterson Thamba -- 101280376<br>
-Vidyavathy Venkataseshadri -- 101266772<br>
-
- 
----
-
-### How to deploy and test
-Software requirements:
-- npm/react
-- ganache/truffle
-
 
 ### Instructions to run the app
 
@@ -83,62 +66,6 @@ The web app is built with reactJS and web3 while the backend is built using Node
 The above figure shows the techstack visual representation of the project.The frontend uses ReactJS along with HTML and CSS for building the app and web3 for interacting with the smart contract functionalities. Next phase would be the Ethereum wallets such as Metamask and MyEtherWallet. A Metamask browser extension is highly recommended for using this app. The smart contract is tested compatible to be deployable in most of the test nets some prominent ones being Ropsten and Rinkby. The entire app was built and tested using the local blockchain.
 
 ---
-
-### Data
-
-| Name             | Type         | Structure                                     | Purpose                                                      |
-| -----------------| ------------ | -----------------------------------           | ------------------------------------------------------------ |
-| Name, Symbol     | string       | n/a                                           | Token Information                                            |
-| ownedTokensCount | mapping      | ( address => uint )                           | No. of tokens owned by owner                                 |
-| tokenOwner       | mapping      | (uint => address)                             | TokenID corresponding to owner                               |
-| operatorApproval | mapping      | (address => mapping (address => bool))        | Enable or disable third party (operator) to manage assets    |
-| Art              | struct       | {id,title,date,price,author,owner,status etc }| Each art has its own token attributes.                       |
-| ArtTxn           | struct       | {id,price,seller,buyer,txnDate,status}        | Keeps track of information record of transaction history     |
-| status           | Struct field | 0 or 1                                        | For sale (or) sold                                           |
-
----
-
-### Functions
-
-| Function name           | Description                                                                                             |
-| ----------------------- | ------------------------------------------------------------------------------------------------------- |
-| ERC721 Functions        | Used to transfer ownership,check balance,check owner,checks if address is approved for operating, etc.  | 
-|`CreateTokenAndSellArt()`| Used to publish and sell the artwork by authors                                                         |
-| `buyArt()`              | Used to place an order for digital art, verifies all the conditions and then updates the ownership info |
-| `resellArt()`           | Used when art owner wants resell the art piece at their own price                                       |
-| `findArt()`             | Used to find art details by passing token Id                                                            |
-| `findAllPendingArt()`   | Used to find all art pieces for sale in the gallery                                                     |
-| `getArtAllTxn()`        | Used to retrieve transaction history and details                                                        |
-
----
-
-### Flowchart
-
-
-![](./notes/flowdiagram.jpg)
-
----
-
-### State Diagram
-
-
-![](./notes/statemachine.jpg)
-
----
-
-### Project Plan
-
-![](./notes/ProjectPlan_1.png)
-
-![](./notes/ProjectPlan2.png)
-
----
-
-### Staffing and Cost
-
-![](./notes/Staffing.png)
-
----
-
+ 
 
 
