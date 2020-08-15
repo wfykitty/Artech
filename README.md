@@ -1,12 +1,12 @@
 
-![](./notes/1.jpg)
-![](./notes/3.jpg)
-![](./notes/4.jpg)
-![](./notes/5.jpg)
-![](./notes/6.jpg)
-![](./notes/7.jpg)
-![](./notes/8.jpg)
-![](./notes/9.jpg)
+![](./notes/1.png)
+![](./notes/3.png)
+![](./notes/4.png)
+![](./notes/5.png)
+![](./notes/6.png)
+![](./notes/7.png)
+![](./notes/8.png)
+![](./notes/9.png)
 
 --
 ### Instructions to run the app
