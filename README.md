@@ -1,12 +1,12 @@
 
-![](./img/1.jpg)
-![](./img/3.jpg)
-![](./img/4.jpg)
-![](./img/5.jpg)
-![](./img/6.jpg)
-![](./img/7.jpg)
-![](./img/8.jpg)
-![](./img/9.jpg)
+![](./notes/1.jpg)
+![](./notes/3.jpg)
+![](./notes/4.jpg)
+![](./notes/5.jpg)
+![](./notes/6.jpg)
+![](./notes/7.jpg)
+![](./notes/8.jpg)
+![](./notes/9.jpg)
 
 --
 ### Instructions to run the app
