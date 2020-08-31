@@ -25,8 +25,9 @@ The smart contracts will be deployed to ganache<br/>
 Navigate to dapp folder and run these commands<br/>
 
         npm install
-        npm run-script startall
         npm audit fix (if shows error)
+        npm run-script startall
+      
         
    Note:In previous command , we run 2 scripts parallel for express and react with the help of npm-run-all , as seen in package.json<br/>
    ```
