@@ -26,9 +26,9 @@ Navigate to dapp folder and run these commands<br/>
 
         npm install
         npm run-script startall
+        npm audit fix (if shows error)
         
-   Note:If it shows error, please try npm audit fix
-   In previous command , we run 2 scripts parallel for express and react with the help of npm-run-all , as seen in package.json<br/>
+   Note:In previous command , we run 2 scripts parallel for express and react with the help of npm-run-all , as seen in package.json<br/>
    ```
      "scripts": {
       "start": "react-scripts start",
