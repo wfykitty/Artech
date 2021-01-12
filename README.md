@@ -3,7 +3,6 @@
 
 -- 
 ### slides
-![](./notes/1.png)
 ![](./notes/5.png)
 ![](./notes/7.png)
 --
