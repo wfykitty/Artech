@@ -1,17 +1,12 @@
-## Artech demo
+## Artech demo - NFT - art trading platform 
 ![](./notes/demo.gif) 
 
 -- 
 ### slides
 ![](./notes/1.png)
-![](./notes/3.png)
 ![](./notes/4.png)
-![](./notes/5.png)
 ![](./notes/6.png)
 ![](./notes/7.png)
-![](./notes/8.png)
-![](./notes/9.png)
-
 --
 ### Instructions to run the app
 
