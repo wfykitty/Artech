@@ -5,7 +5,6 @@
 ### slides
 ![](./notes/1.png)
 ![](./notes/4.png)
-![](./notes/6.png)
 ![](./notes/7.png)
 --
 ### Instructions to run the app
